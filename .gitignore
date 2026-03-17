@@ -1,0 +1,21 @@
+# Runtime data
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# Data and Artifacts (Exclude raw and processed files if desired)
+# We track the folder structure but not large CSVs
+data/raw/**/*.json
+data/processed/*.csv
+data/metrics/*.csv
+data/metrics/*.json
+
+# Streamlit/Jupyter
+.streamlit/
+.ipynb_checkpoints/
